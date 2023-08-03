@@ -1,0 +1,227 @@
+/*@media (min-width: 1200px) {
+}*/
+    
+body, html {
+    height: 100%;
+  }
+  
+
+    #banner{
+        background-image: url('./img/choose_language.jpg');
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    #banner-title{
+        padding: 200px 0;
+        color:white;
+        font-size:2em;
+        text-align:center;
+    }
+    .title {
+        display: flex;
+        font-size: 3em;
+        color: white;
+        font-weight: bold;
+        justify-content: center;
+    }
+    .text{
+        padding-top: 1em;
+        opacity:0;
+        position: absolute;
+        font-size: 3em;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        width:100%
+    }
+    .t1{
+        animation: ani1 22s infinite;
+    }
+    .t2{
+        animation: ani2 22s infinite;
+    }
+    .t3{
+        animation: ani3 22s infinite;
+    }
+    .t4{
+        animation: ani4 22s infinite;
+    }
+    .t5{
+        animation: ani5 22s infinite;
+    }
+    .t6{
+        animation: ani6 22s infinite;
+    }
+    .t7{
+        animation: ani7 22s infinite;
+    }
+    .t8{
+        animation: ani8 22s infinite;
+    }
+    .t9{
+        animation: ani9 22s infinite;
+    }
+    .t10{
+        animation: ani10 22s infinite;
+    }
+    .t11{
+        animation: ani11 22s infinite;
+    }
+    .t12{
+        animation: ani12 22s infinite;
+    }
+   
+    @keyframes ani1{
+        0%{
+            opacity: 0;
+        }
+        5% {
+            opacity:1;
+        }
+        10% {
+            opacity:0;
+        }
+    }
+   @keyframes ani2{
+    10%{
+        opacity: 0;
+    }
+    15% {
+        opacity:1;
+    }
+    19% {
+        opacity:0;
+    }
+   } 
+   @keyframes ani3{
+    19%{
+        opacity: 0;
+    }
+    23% {
+        opacity:1;
+    }
+    28% {
+        opacity:0;
+    }
+   }
+   @keyframes ani4{
+    28%{
+        opacity: 0;
+    }
+    33% {
+        opacity:1;
+    }
+    37% {
+        opacity:0;
+    }
+   }
+   @keyframes ani5{
+    37%{
+        opacity: 0;
+    }
+    42% {
+        opacity:1;
+    }
+    46% {
+        opacity:0;
+    }
+   }
+   @keyframes ani6{
+    46%{
+        opacity: 0;
+    }
+    50% {
+        opacity:1;
+    }
+    54% {
+        opacity:0;
+    }
+   }
+   @keyframes ani7{
+    54%{
+        opacity: 0;
+    }
+    59% {
+        opacity:1;
+    }
+    63% {
+        opacity:0;
+    }
+   }
+   @keyframes ani8{
+    63%{
+        opacity: 0;
+    }
+    67% {
+        opacity:1;
+    }
+    72% {
+        opacity:0;
+    }
+   }
+   @keyframes ani9{
+    72%{
+        opacity: 0;
+    }
+    76% {
+        opacity:1;
+    }
+    81% {
+        opacity:0;
+    }
+   }
+   @keyframes ani10{
+    81%{
+        opacity: 0;
+    }
+    85% {
+        opacity:1;
+    }
+    89% {
+        opacity:0;
+    }
+   }
+   @keyframes ani11{
+    89%{
+        opacity: 0;
+    }
+    92% {
+        opacity:1;
+    }
+    95% {
+        opacity:0;
+    }
+   }
+   @keyframes ani12{
+    95%{
+        opacity: 0;
+    }
+    97% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+   }
+   .flags0{
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding-left: 9em;
+        padding-right: 9em;
+        padding-top: 10em;
+   }
+   .flags1{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-top: 7em;
+}
+   .flag{
+       width: 5em;
+       height: 5em;
+   }

@@ -1,0 +1,25 @@
+.present {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }
+  

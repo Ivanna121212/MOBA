@@ -1,0 +1,42 @@
+.memory-game {
+    padding: 20%;
+      display: grid;
+    grid-template-columns: repeat(6, 100px); 
+    grid-gap: 10px; 
+    max-width: 100px;
+    align: center; 
+    perspective: 1000px;
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  }
+  
+  .front,
+  .back {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+  .front-face {
+    transform: rotateY(180deg);
+  }
+  .card.flip {
+    transform: rotateY(180deg);
+  }
