@@ -1,4 +1,4 @@
-
+ 
 const slideshow = document.querySelector('.slideshow-container');
 const slides = document.querySelectorAll('.slide');
 const prevButton = document.querySelector('.prev-button');
