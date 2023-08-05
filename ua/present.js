@@ -1,15 +1,12 @@
-// JavaScript code to handle the slideshow
 
-// Get references to elements
 const slideshow = document.querySelector('.slideshow-container');
 const slides = document.querySelectorAll('.slide');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
 
-// Variable to track the current slide index
+
 let slideIndex = 0;
 
-// Function to show the current slide
 function showSlide() {
   // Hide all slides
   slides.forEach((slide) => {
@@ -38,11 +35,9 @@ function nextSlide() {
   showSlide();
 }
 
-// Event listeners for the previous and next buttons
 prevButton.addEventListener('click', prevSlide);
 nextButton.addEventListener('click', nextSlide);
 
-// Show the initial slide
 showSlide();
 
 
@@ -50,7 +45,7 @@ showSlide();
 
 
 const carousel = document.querySelector('.carousel');
-//const slides = carousel.querySelectorAll('.slide');
+
 const playButton = document.getElementById('playButton');
 
 const audioElements = [
