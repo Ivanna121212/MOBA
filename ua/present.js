@@ -8,16 +8,16 @@ const nextButton = document.querySelector('.next-button');
 let slideIndex = 0;
 
 function showSlide() {
-  // Hide all slides
+  
   slides.forEach((slide) => {
     slide.style.display = 'none';
   });
 
-  // Show the current slide
+  
   slides[slideIndex].style.display = 'block';
 }
 
-// Function to go to the previous slide
+
 function prevSlide() {
   slideIndex--;
   if (slideIndex < 0) {
@@ -26,7 +26,6 @@ function prevSlide() {
   showSlide();
 }
 
-// Function to go to the next slide
 function nextSlide() {
   slideIndex++;
   if (slideIndex >= slides.length) {
