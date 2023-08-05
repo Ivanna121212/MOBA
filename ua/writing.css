@@ -1,0 +1,50 @@
+   input {
+    padding: 8px;
+    font-size: 16px;
+    align-self: center;
+    margin-left: 50px;
+  }
+  .game{
+    margin-left: 200px;
+  }
+  
+ #submitBtn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+  }
+  
+  #score {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 18px;
+    display: block;
+  }
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px;
+    padding-left: 300px;
+  }
+  
+  .image-container {
+    margin: 50px;
+    max-width: 300px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #score{
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .result{
+    color:rgba(0, 0, 0, 0.4);
+  }
+  #messageContainer{
+    color:white;
+    font-size: 1.5em;
+  }

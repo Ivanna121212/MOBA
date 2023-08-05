@@ -164,7 +164,19 @@ img {
 
 
 
-#popupWindow1 {
+#popupWindow1, #popupWindow5, #popupWindow6 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+    width: 80%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.79);
+  transform: translate(-50%, -50%);
+   display: none;
+  
+}
+
+#popupWindow2, #popupWindow3, #popupWindow4 {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -178,8 +190,13 @@ img {
 
 
 
+#finish, #finish5, #finish6 {
+  position: flex;
+  justify-content: flex-end;
+  color:white;
+}
 
-#finish {
+#finish2, #finish3, #finish4 {
   position: flex;
   justify-content: flex-end;
   color:white;

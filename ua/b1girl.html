@@ -6,8 +6,9 @@
     <title>b1ua</title>
     <link rel="stylesheet" href="b1girl.css" />
     <link rel="stylesheet" href="present.css" />
-    <link rel="stylesheet" href="memory.css" />
-    
+    <link rel="stylesheet" href="memorygame.css" />
+    <link rel="stylesheet" href="match.css" />
+    <link rel="stylesheet" href="writing.css" />
   </head>
   <body>
     <div class="banner" id="topBanner">
@@ -92,31 +93,93 @@
 
 
         <div id="popupWindow1">
-          <div class="present">
-          <div class="card" id="card1">
-            <img src="../img/food/cucumber.png">
-            <p>ОГІРОК</p>
+          <div class="carousel slideshow-container">
+            <div class="slide">
+              <div class="card" id="card1">
+                <img src="../img/food/bread.png" />
+                <p>ХЛІБ</p>
+              </div>
+              <div class="card" id="card2">
+                <img src="../img/food/tomato.png" />
+                <p>ПОМІДОР</p>
+              </div>
+              <div class="card" id="card3">
+                <img src="../img/food/cucumber.png"/>
+                <p>ОГІРОК</p>
+              </div>
+            </div>
+
+
+            <div class="slide">
+              <div class="card" id="card4">
+                <img src="../img/food/butter.png"/>
+                <p>МАСЛО</p>
+              </div>
+              <div class="card" id="card5">
+                <img src="../img/food/salt.png"/>
+                <p>СІЛЬ</p>
+              </div>
+              <div class="card" id="card6">
+                <img src="../img/food/sugar.png" />
+                <p>ЦУКОР</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="card" id="card7">
+                <img src="../img/food/water.png" />
+                <p>ВОДА</p>
+              </div>
+              <div class="card" id="card8">
+                <img src="../img/food/tea.png" />
+                <p>ЧАЙ</p>
+              </div>
+              <div class="card" id="card9">
+                <img src="../img/food/coffee.png"/>
+                <p>КАВА</p>
+              </div>
+            </div>
+
+
+            <div class="slide">
+              <div class="card" id="card10">
+                <img src="../img/food/meat.png"/>
+                <p>М'ЯСО</p>
+              </div>
+              <div class="card" id="card11">
+                <img src="../img/food/fish.png"/>
+                <p>РИБА</p>
+              </div>
+              <div class="card" id="card12">
+                <img src="../img/food/cheese.png" />
+                <p>СИР</p>
+              </div>
+            </div>
+
+         
           </div>
-          <div class="card" id="card2">
-            <img src="../img/food/tomato.png">
-            <p>ПОМІДОР</p>
-          </div>
-          <div class="card" id="card3">
-            <img src="../img/food/bread.png">
-            <p>ХЛІБ</p>
-          </div>
-        </div>
+        
           <button id="playButton">Play Audio</button>
         
-          <audio id="audio1" src="./mp3/ohirok.mp3"></audio>
+          <audio id="audio1" src="./mp3/khlib.mp3"></audio>
           <audio id="audio2" src="./mp3/pomidor.mp3"></audio>
-          <audio id="audio3" src="./mp3/khlib.mp3"></audio>
-        
-           
+          <audio id="audio3" src="./mp3/ohirok.mp3"></audio>
+          <audio id="audio4" src="./mp3/maslo.mp3"></audio>
+          <audio id="audio5" src="./mp3/sil'.mp3"></audio>
+          <audio id="audio6" src="./mp3/tsukor.mp3"></audio>
+          <audio id="audio7" src="./mp3/voda.mp3"></audio>
+          <audio id="audio8" src="./mp3/chaj.mp3"></audio>
+          <audio id="audio9" src="./mp3/kava.mp3"></audio>
+          <audio id="audio10" src="./mp3/mjaso.mp3"></audio>
+          <audio id="audio11" src="./mp3/ryba.mp3"></audio>
+          <audio id="audio12" src="./mp3/syr.mp3"></audio>
+         
+          <button class="prev-button">&#10094;</button>
+          <button class="next-button">&#10095;</button>
               
           <div id="finish">
           <button id="finish">
-            <fieldset id="finish"> Finish
+            <fieldset id="finish"> ЗАВЕРШИТИ
             </fieldset>    
             </button>
           </div>   
@@ -124,10 +187,273 @@
 
 
 
+        <div id="popupWindow2">
+          <div class="game-container">
+            <div class="cards-container">
+            
+          <div class="cardword" data-id="1">
+            <button>
+            <img src="../img/food/bread.png" />
+          </button>
+          </div>
+          <div class="cardword" data-id="2">
+            <button>
+            <img src="../img/food/tomato.png" />
+          </button>
+          </div>
+          <div class="cardword" data-id="3">
+            <button>
+            <img src="../img/food/cucumber.png"/>
+          </button>
+          </div> <div class="cardword" data-id="4">
+            <button>
+            <img src="../img/food/butter.png"/>
+          </button>
+          </div>
+          <div class="cardword" data-id="5">
+            <button>
+            <img src="../img/food/salt.png"/>
+          </button>
+          </div>
+          <div class="cardword" data-id="6">
+            <button>
+            <img src="../img/food/sugar.png" />
+          </button> 
+          </div> 
+          <div class="cardword" data-id="7">
+          <button>
+            <img src="../img/food/water.png" />
+          </button>
+          </div>
+          <div class="cardword" data-id="8">
+          <button>
+            <img src="../img/food/tea.png" />
+          </button>
+          </div>
+          <div class="cardword" data-id="9">
+          <button>
+            <img src="../img/food/coffee.png"/>
+          </button>
+          </div> <div class="cardword" data-id="10">
+          <button>
+            <img src="../img/food/meat.png"/>
+          </button> 
+          </div>
+          <div class="cardword" data-id="11">
+          <button>
+            <img src="../img/food/fish.png"/>
+          </button>
+          </div>
+          <div class="cardword" data-id="12">
+          <button>
+            <img src="../img/food/cheese.png" />
+          </button>
+          </div> 
+          </div>
+          <div class="words-container">
+              <div class="wordword" word-id="1"><button> ХЛІБ </button></div>
+              <div class="wordword" word-id="2"><button> ПОМІДОР </button> </div>
+              <div class="wordword" word-id="3"><button> ОГІРОК </button> </div>
+              <div class="wordword" word-id="4"><button>МАСЛО </button> </div>
+              <div class="wordword" word-id="5"><button> СІЛЬ </button></div>
+              <div class="wordword" word-id="6"><button> ЦУКОР </button></div>
+              <div class="wordword" word-id="7"><button> ВОДА</button> </div>
+              <div class="wordword" word-id="8"><button> ЧАЙ </button> </div>
+              <div class="wordword" word-id="9"><button> КАВА </button> </div>
+              <div class="wordword" word-id="10"><button> М'ЯСО </button></div>
+              <div class="wordword" word-id="11"><button> РИБА </button> </div>
+              <div class="wordword" word-id="12"><button> СИР </button></div>
+          </div>
+
+          </div>
+         
+          <audio id="audio1" src="./mp3/khlib.mp3"></audio>
+          <audio id="audio2" src="./mp3/pomidor.mp3"></audio>
+          <audio id="audio3" src="./mp3/ohirok.mp3"></audio>
+          <audio id="audio4" src="./mp3/maslo.mp3"></audio>
+          <audio id="audio5" src="./mp3/sil'.mp3"></audio>
+          <audio id="audio6" src="./mp3/tsukor.mp3"></audio>
+          <audio id="audio7" src="./mp3/voda.mp3"></audio>
+          <audio id="audio8" src="./mp3/chaj.mp3"></audio>
+          <audio id="audio9" src="./mp3/kava.mp3"></audio>
+          <audio id="audio10" src="./mp3/mjaso.mp3"></audio>
+          <audio id="audio11" src="./mp3/ryba.mp3"></audio>
+          <audio id="audio12" src="./mp3/syr.mp3"></audio>
+
+
+          <div id="finish2">
+            <button id="finish2">
+              <fieldset id="finish2"> ЗАВЕРШИТИ
+              </fieldset>    
+              </button>
+            </div>   
+          </div>
+
+      
+
+      <div id="popupWindow3"> 
+
+        <div class="memory-game">
+          <div class="memory-card">
+             <img class="front-face" src="../img/food/bread.png" >
+             <img class="back-face" src="../img/card.jpg" >
+           </div>
+           <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+            <img class="front-face" src="../img/food/bread.png" >
+            <img class="back-face" src="../img/card.jpg" >
+          </div>
+          <div class="memory-card">
+           <img class="front-face" src="../img/food/bread.png" >
+           <img class="back-face" src="../img/card.jpg" >
+         </div>
+         <div class="memory-card">
+           <img class="front-face" src="../img/food/bread.png" >
+           <img class="back-face" src="../img/card.jpg" >
+         </div>
+         <div class="memory-card">
+           <img class="front-face" src="../img/food/bread.png" >
+           <img class="back-face" src="../img/card.jpg" >
+         </div>
+         <div class="memory-card">
+           <img class="front-face" src="../img/food/bread.png" >
+           <img class="back-face" src="../img/card.jpg" >
+         </div>
+         <div class="memory-card">
+           <img class="front-face" src="../img/food/bread.png" >
+           <img class="back-face" src="../img/card.jpg" >
+         </div>
+         <div class="memory-card">
+          <img class="front-face" src="../img/food/bread.png" >
+          <img class="back-face" src="../img/card.jpg" >
+        </div>
+        <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+         <img class="front-face" src="../img/food/bread.png" >
+         <img class="back-face" src="../img/card.jpg" >
+       </div>
+       <div class="memory-card">
+        <img class="front-face" src="../img/food/bread.png" >
+        <img class="back-face" src="../img/card.jpg" >
+      </div>
+      <div class="memory-card">
+        <img class="front-face" src="../img/food/bread.png" >
+        <img class="back-face" src="../img/card.jpg" >
+      </div>
+      <div class="memory-card">
+        <img class="front-face" src="../img/food/bread.png" >
+        <img class="back-face" src="../img/card.jpg" >
+      </div>
+      <div class="memory-card">
+        <img class="front-face" src="../img/food/bread.png" >
+        <img class="back-face" src="../img/card.jpg" >
+      </div>
+      <div class="memory-card">
+        <img class="front-face" src="../img/food/bread.png" >
+        <img class="back-face" src="../img/card.jpg" >
+      </div>
+      </div>
+        <div id="finish3">
+          <button id="finish3">
+            <fieldset id="finish3"> ЗАВЕРШИТИ
+            </fieldset>    
+            </button>
+          </div>   
+
+      </div>
+  
+
+
+      <div id="popupWindow4">
+        <div class="game">
+          <div class="image-container">
+            <img id="image" src="" />
+          </div>
+          <div class="input-container">
+            <input type="text" id="wordInput" placeholder="Напишіть слово тут" />
+            <button id="submitBtn">ПЕРЕВІРИТИ</button>
+          </div>
+          <div class="result">
+          Загальна кількість балів: <div id="score"> </div>
+        </div>
+        <div class="message-container" id="messageContainer">
+        </div>
+        <div id="finish4">
+          <button id="finish4">
+            <fieldset id="finish4"> ЗАВЕРШИТИ
+            </fieldset>    
+            </button>
+          </div>   
+
+      </div>
+    
+
+
+
+     <!-- <div id="popupWindow5"> 
+        <div id="finish5">
+          <button id="finish5">
+            <fieldset id="finish5"> ЗАВЕРШИТИ
+            </fieldset>    
+            </button>
+          </div>   
+
+      </div>
+  
+      <div id="popupWindow6"> 
+        <div id="finish6">
+          <button id="finish6">
+            <fieldset id="finish6"> ЗАВЕРШИТИ
+            </fieldset>    
+            </button>
+          </div>   
+
+      </div>-->
+
     </section>
 
     <script src="b1girl.js"></script>
     <script src="blackScreen.js"></script>
     <script src="present.js"></script>
+    <script src="match.js"></script>
+    <script src="writing.js"></script>
   </body>
 </html>
